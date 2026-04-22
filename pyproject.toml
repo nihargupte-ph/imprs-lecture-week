@@ -1,0 +1,18 @@
+[project]
+name = "imprs-lecture-week-2026"
+version = "0.1.0"
+description = "Tutorials for IMPRS Lecture Week 2026: PyTorch basics, normalizing flows, and transformers for gravitational-wave analysis."
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+    "torch>=2.1",
+    "lalsuite>=7.15",
+    "glasflow>=0.4",
+    "corner>=2.2",
+    "ipykernel>=6.29",
+    "jupyterlab>=4.0",
+]
+
+[tool.uv]
+package = false
